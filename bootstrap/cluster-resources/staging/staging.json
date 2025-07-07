@@ -1,4 +1,0 @@
-{
-    "name": "staging",
-    "server": "https://kubernetes.default.svc"
-}
