@@ -6,10 +6,10 @@ metadata:
 spec:
   description: Staging environment project
   sourceRepos:
-    - '*'
+  - '*'
   destinations:
-    - namespace: '*'
-      server: '*'
+  - namespace: '*'
+    server: '*'
   clusterResourceWhitelist:
-    - group: '*'
-      kind: '*'
+  - group: '*'
+    kind: '*'
