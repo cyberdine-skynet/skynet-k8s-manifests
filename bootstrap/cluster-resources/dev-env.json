@@ -1,0 +1,4 @@
+{
+    "name": "dev-env",
+    "server": "https://kubernetes.default.svc"
+}
