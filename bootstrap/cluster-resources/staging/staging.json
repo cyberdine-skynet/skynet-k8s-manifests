@@ -1,4 +1,4 @@
 {
-    "name": "dev-env",
+    "name": "staging",
     "server": "https://kubernetes.default.svc"
 }
