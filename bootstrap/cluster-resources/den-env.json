@@ -1,0 +1,4 @@
+{
+  "name": "den-env",
+  "server": "https://kubernetes.default.svc"
+}
