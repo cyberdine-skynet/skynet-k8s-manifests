@@ -1,0 +1,11 @@
+{
+  "appName": "skynet-app",
+  "userGivenName": "skynet-app",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/skynet-app/overlays/production",
+  "srcRepoURL": "https://github.com/cyberdine-skynet/skynet-k8s-manifests.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
