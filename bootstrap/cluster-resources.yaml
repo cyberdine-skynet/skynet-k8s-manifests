@@ -25,8 +25,8 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
-        app.kubernetes.io/name: cluster-resources-{{name}}
-      name: cluster-resources-{{name}}
+        app.kubernetes.io/name: '{{name}}'
+      name: '{{name}}'
       namespace: argocd
     spec:
       destination:
