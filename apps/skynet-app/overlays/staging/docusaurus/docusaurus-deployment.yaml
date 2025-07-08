@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docusaurus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: docusaurus
+  template:
+    metadata:
+      labels:
+        app: docusaurus
+    spec:
+      containers:
+      - name: docusaurus
+        image: <your-registry>/docusaurus:latest
+        ports:
+        - containerPort: 80

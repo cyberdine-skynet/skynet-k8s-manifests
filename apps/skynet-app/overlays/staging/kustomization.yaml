@@ -3,3 +3,5 @@ kind: Kustomization
 namespace: workload-staging
 resources:
 - ../../base
+- docusaurus/docusaurus-deployment.yaml
+- docusaurus/docusaurus-service.yaml
