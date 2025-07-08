@@ -1,0 +1,4 @@
+{
+  "apiServer": "https://kubernetes.default.svc",
+  "namespace": "tanka-sample"
+}
