@@ -3,8 +3,8 @@
   "userGivenName": "prometheus",
   "destNamespace": "monitoring",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/monitoring/prometheus/overlays/dev",
-  "srcRepoURL": "https://github.com/cyberdine-skynet/skynet-k8-manifests.git",
+  "srcPath": "apps/monitoring/prometheus/overlays/staging",
+  "srcRepoURL": "https://github.com/cyberdine-skynet/skynet-k8s-manifests.git",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null
