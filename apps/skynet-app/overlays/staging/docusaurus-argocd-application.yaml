@@ -11,7 +11,7 @@ spec:
     path: apps/skynet-app/overlays/staging
   destination:
     server: https://kubernetes.default.svc
-    namespace: workload-staging
+    namespace: docusaurus
   syncPolicy:
     automated:
       prune: true
