@@ -3,3 +3,4 @@ resources:
 - ../prometheus/overlays/staging
 - ../grafana/overlays/staging
 - ../fluent-bit/overlays/staging
+- pvc.yaml
