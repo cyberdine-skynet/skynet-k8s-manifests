@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argocd-repo-server
+  namespace: argocd
+spec:
+  template:
+    spec:
+      containers:
+      - name: tanka-cmp
+        image: ghcr.io/grafana/tanka:latest
+        command: [ "/var/run/argocd/argocd-cmp-server" ]
+        env:
+        - name: ARGOCD_EXEC_TIMEOUT
+          value: "180"
+        volumeMounts:
+        - mountPath: /var/run/argocd
+          name: var-files
+      volumes:
+      - name: var-files
+        emptyDir: {}
