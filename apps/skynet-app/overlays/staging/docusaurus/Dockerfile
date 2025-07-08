@@ -1,7 +1,7 @@
 # Docusaurus documentation app Dockerfile
 # Place this file in your Docusaurus project root (e.g., docs-site/)
 
-FROM node:18-alpine AS builder
+FROM node:18-alpine3.19 AS builder
 WORKDIR /app
 COPY . .
 RUN npm install
