@@ -1,0 +1,5 @@
+resources:
+- ../loki/overlays/staging
+- ../prometheus/overlays/staging
+- ../grafana/overlays/staging
+- ../fluent-bit/overlays/staging
