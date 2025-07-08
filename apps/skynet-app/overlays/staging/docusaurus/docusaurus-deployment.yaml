@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: docusaurus
-        image: <your-registry>/docusaurus:latest
+        image: teknoseeker/docusaurus:latest
         ports:
         - containerPort: 80
