@@ -1,11 +1,11 @@
 {
   "appName": "grafana",
   "userGivenName": "grafana",
-  "destNamespace": "monitoring",
-  "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/monitoring/grafana/overlays/staging",
-  "srcRepoURL": "https://github.com/cyberdine-skynet/skynet-kubernetes-manifests.git",
-  "srcTargetRevision": "",
+  "destNamespace": null,
+  "destServer": null,
+  "srcPath": null,
+  "srcRepoURL": null,
+  "srcTargetRevision": null,
   "labels": null,
   "annotations": null
 }
